@@ -12,7 +12,7 @@ function giaiPhuongTrinh() {
         } else {
             if (delta == 0){
                 x = -b / (2 * a);
-                document.getElementById("result").innerHTML = "Phuong trinh co nghiem kep: " + x;
+                document.getElementById("result").innerHTML = "Phuong trinh co nghiem kep: x = " + x;
             } else {
                 x1 = (-b + Math.sqrt(delta)) / (2 * a);
                 x2 = (-b - Math.sqrt(delta)) / (2 * a);
